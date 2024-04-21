@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    background-color: dodgerblue;
+    padding: 4px;
+    font-size: larger;
+    width: 150px;
+    height: 50px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS4AAACnCAMAAACYVkHVAAAAYFBMVEX///8BsPAAq+8ArvAAqu8AsfBQv/Om3PjJ6fsrt/HR7ftKvfLg9P06uvJYwvPq9/2N0va04fnz+/5+zvVmxfR3y/WX1/e44vna8fyH0fal2vi+5frN7Pvu+v73/v9syPQJQrhuAAADY0lEQVR4nO3dSXIVMRQFUYrGpjEYbHow7H+XxIeRg5Je3FHm4J4lZEBZelLVf/LE6cWhRGdZefeMLnOKzrLyvrkSH57SZU7RWVZeN1firrkidJhzdJWlK7rMKbrK0r3yTyNdZela+fCiqyy9bK7E7XM6zRm6ylqfXZFXdJozdJS1j8Z/XnSUNeUmm46yptxk01HWlJtsOsrag3ElQUfZ6LMr8pZuc4JusmFcSdBNNowrCbrJhnElQTfZMM4k6CYbxpkE3WSnuSLCg386yY7wdINOsvPJt5Kgk+x8bq7EF99Kgk6yIxzh0El2bpsr0lwR38KLLrL1hq7zH7rI1m/dSoIusuWbeNFFtny3cOgiW76JF11k62tzJXz3eekie33UR3TrVDrInm6dSgfZ061T6SB735or8b25Erp5Kh1kTzdPpYPs3TRX4s52kE0HGfRRH7Et6+keA9uFS7rHwPZ9BLrHwHZNgu4xsE3r6R6D6+ZK2K7z0j0GtsMNusfAdrhB9xjYNo10j4Ft00j3mDRXpAuJiGyPTeeYyPbYdI7Jlet/I51jInsHlM4xkY0k6BwT2UiCzjGRvehC55jIJjh0jolsgkPnmPxoroRs4EXnmPxsroRsPkjnmMjmg3SOieydRjrH5KG5ErI3Eegck1/NFWmuSHNFusWO0IEeo2uMXEdBdI1Rc0VcHxana4yaK9JcEdcxNl1j1FwR1/vFdI1Rc0WaK9JckeaKNFekC4lIc0W6CYo0V6TzrkhzRehAj9E1Rj0JivScMdJcid6RiPTCUqTX4SK9bBnpVd5IL4pH+tZGpO8ERfrGWaTvM0ZknzGmc0xkH8mmc0xkHx+kc0xcB0H6XK7Zsz6Xa9llz9Xvd0VkAwl7LtsH6+keA9vPIdA9BrYf26B7DGR7IHsu2ee77Llki3p7Ltmi3p5L9odRnsu2SpXnkn1fyZ5L91u8dJC9e9k6Qp5LNku157KtI9y5ZJe7Dnku2X2SQ55LdkHikOeSHWEf8ly2eYQ8l+4PozqX7EN6F3SSHdu5xuHOpdsxunPJfgnhgk6y43rz8y86yY7swP+CTrIhfNKbc9mOZC/oJhu6YdehzkWnOUM3WbsRPunFuYSLVHMu2RXxf+goa75xxCHOpXx0eXMpH13eXMZV13H8AbzeZ4M+tAJMAAAAAElFTkSuQmCC");
+    background-size: cover;
+}
+img{
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 400px;
+}
+.para{
+    width: 50%;
+    font-size: 20px;
+}
+.left{
+    margin-left: 50px;
+}
+button:hover{
+    background-color:white;
+    color:green;
+
+}    
+a{ margin-left: 20px;}
+input{
+    width: 250px;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid gray;
+}
+.demo{
+    width: 75%;
+    margin-left: 20px;
+}
+.first{
+    width: 300px;
+}
